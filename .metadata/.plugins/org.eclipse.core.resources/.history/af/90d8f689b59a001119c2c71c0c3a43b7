@@ -1,0 +1,7 @@
+package Pack1;
+
+public class hybrid extends Derived, subclass{
+	
+	
+
+}

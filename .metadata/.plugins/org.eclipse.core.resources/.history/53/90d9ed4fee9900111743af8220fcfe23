@@ -1,0 +1,21 @@
+package Pack1;
+import pack3;
+
+public class Test {
+	
+	public static void main(String []args) {
+		System.out.println("Main called ");
+		
+		Nest cn = new Nest();
+		System.out.println(n.sum);
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+
+}

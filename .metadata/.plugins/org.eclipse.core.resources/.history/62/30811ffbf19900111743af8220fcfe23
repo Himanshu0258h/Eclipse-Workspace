@@ -1,0 +1,11 @@
+
+
+package Pack2;
+
+public class Hello {
+	
+	void display() {
+		System.out.println("Display called ");
+	}
+
+}

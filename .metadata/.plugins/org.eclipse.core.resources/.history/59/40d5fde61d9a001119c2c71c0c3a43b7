@@ -1,0 +1,26 @@
+package pack1;
+
+public class Test {
+	
+	
+		
+		int a = 10;
+		public int b=12;
+		private long c=10;
+		protected int d=30;
+		
+		public static void main(String []args) {
+		
+
+		Test t=new Test();
+		System.out.println(t.a+" "+t.b+" "+t.c+ " "+t.d);
+		
+		
+		
+		
+		
+		
+	}
+
+
+}

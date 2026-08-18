@@ -1,0 +1,19 @@
+package Pack1;
+
+public class Test {
+	
+	public static void main( String []args)
+	{
+		
+		//Derived b= new Derived();
+		
+		Subclass b = new Subclass();
+		System.out.println(b.a);
+		//System.out.println(b.x);
+		b.display();
+		b.show();
+		b.sum();
+		
+	}
+
+}

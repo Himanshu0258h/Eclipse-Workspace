@@ -1,0 +1,10 @@
+package Pack1;
+
+public class Base {
+	
+	int a=25;
+	
+
+	
+	
+}

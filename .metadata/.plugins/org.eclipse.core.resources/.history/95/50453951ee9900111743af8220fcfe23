@@ -1,0 +1,10 @@
+package Pack3;
+
+
+
+public class Nest {
+	void sum() {
+		System.out.println("sum called ");
+	}
+
+}
