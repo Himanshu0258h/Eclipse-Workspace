@@ -26,8 +26,8 @@ public class Test {
 		Test t = new Test();
 		t.sum(12);
 		t.sum(12, 20);
-		t.sum(12, 20);
-		//t.sum(20.4f,32.4f);
+		
+		t.sum(20.4f,32.4f);
 		
 	}
 

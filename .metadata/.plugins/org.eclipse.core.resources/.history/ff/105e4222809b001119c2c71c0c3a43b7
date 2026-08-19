@@ -1,0 +1,32 @@
+package pack1;
+
+class A{
+	int sum(int a , int b) {
+		return a+b;
+		
+	}
+}
+
+class B extends A{
+	int sum(int a , int b) {
+	return a+b;	
+	}
+}
+
+
+
+public class methodoverride {
+	 public static void main(String args[]) {
+	A ob = new A();
+	System.out.println(ob.sum(10,20));
+	
+	B o = new B();
+	System.out.println(o.sum(20,20));
+	
+	A oc = new B();
+	System.out.println(oc.sum(12,12));
+	
+	
+	
+	 }
+}

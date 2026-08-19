@@ -1,0 +1,32 @@
+package pack1;
+
+class A{
+	void sum(int a , int b) {
+		System.out.println("child class"+(a+b));	
+	}
+}
+
+class B extends A{
+	@Override
+	void sum(int a , int b) {
+	System.out.println("child class"+(a+b));	
+	}
+}
+
+
+
+public class methodoverride {
+	 public static void main(String args[]) {
+	A ob = new A();
+ob.sum(10,20);
+	
+	B o = new B();
+	o.sum(20,20);
+	
+	A oc = new B();
+	oc.sum(12,12);
+	
+	
+	
+	 }
+}

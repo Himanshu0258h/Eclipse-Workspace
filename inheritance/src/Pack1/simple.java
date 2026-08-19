@@ -1,0 +1,40 @@
+package Pack1;
+
+
+
+class A
+{
+	
+int add(int a , int b) {
+	return a+b;
+}
+}
+
+class B{
+	A ob= new A();
+int display() {
+	return ob.add(10, 20);
+	
+}
+
+int sum() {
+	return ob.add(12, 30);
+	
+}
+}
+
+
+
+
+public class simple {
+	public static void main(String []args) {
+		
+		B b=new B();
+		System.out.println(b.display());
+		System.out.println(b.sum());
+		
+		
+		
+	}
+}
+
