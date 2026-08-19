@@ -2,14 +2,14 @@ package Pack1;
 
 
 
-class S{
+class A{
 	
         int add(int a , int b) {
 	    return a+b;
        }
 }
 
-class U{
+class B{
 	    A ob= new A();
         int display() {
 	    return ob.add(10, 20);
@@ -22,7 +22,7 @@ class U{
        }
 }
 
-class C extends U{
+class C extends A{
 	    void count() {
 	    System.out.println("system c called ");
 	    }
@@ -34,8 +34,9 @@ public class Multilevel {
 	public static void main(String []args) {
 		
 		C b=new C();
-		System.out.println(b.display());
-		System.out.println(b.sum());
+		B c= new B();
+		System.out.println(c.display());
+		System.out.println(c.sum());
 		b.count();
 		
 		

@@ -22,7 +22,7 @@ class U{
        }
 }
 
-class C extends U{
+class C extends B{
 	    void count() {
 	    System.out.println("system c called ");
 	    }
