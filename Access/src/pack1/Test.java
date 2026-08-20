@@ -1,4 +1,5 @@
 package pack1;
+import pack2.Best;
 
 public class Test {
 	
@@ -10,8 +11,8 @@ public class Test {
 		
 
 		Test t=new Test();
-		Nest n=new Nest();
-		System.out.println(n.a+" "+n.b+" "+ " "+n.d);
+		Best n=new Best();
+		System.out.println(n.a+" "+n.b+" "+n.c+ " "+n.d);
 		
 		
 		

@@ -10,7 +10,7 @@ class paymentprocess{
 
 class googlepay extends paymentprocess{
 	@Override
-	 void done()
+	 protected void done()
 	 {
 		 System.out.println("payemtn done throgh gpay");
 	 }
